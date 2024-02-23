@@ -15025,7 +15025,7 @@ img {
 /*  3.1 - Header Top CSS
 /*----------------------------------------*/
 .header-top {
-  background-color: #212832;
+  background-color: black;
 }
 
 .header-top-wrapper {
@@ -15045,7 +15045,7 @@ img {
   line-height: 1.4;
 }
 .header-top-left p a {
-  color: #309255;
+  color: red;
   display: inline-block;
   font-weight: 500;
 }
@@ -15126,7 +15126,7 @@ img {
   color: #309255;
 }
 .header-top-medal .top-info p i {
-  color: #309255;
+  color: red;
   font-size: 20px;
   padding-right: 15px;
 }
@@ -16129,7 +16129,8 @@ img {
 /*  4.1 - Slider CSS
 /*----------------------------------------*/
 .slider-section {
-  background-color: #eefbf3;
+  /* background-color: #eefbf3; */
+  background-color: #FFEBEE;
   height: 940px;
   position: relative;
   overflow: hidden;
