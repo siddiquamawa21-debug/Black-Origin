@@ -15151,7 +15151,7 @@ img {
 }
 .header-top-right .social li a {
   font-size: 20px;
-  color: #fff;
+  color: red;
 }
 .header-top-right .social li a:hover {
   color: #309255;
