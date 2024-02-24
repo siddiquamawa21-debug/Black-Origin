@@ -14369,7 +14369,7 @@ img {
   font-size: 15px;
   font-weight: 500;
   color: #212832;
-  border: 1px solid rgba(48, 146, 85, 0.2);
+  border: 1px solid rgba(255,0,0, 0.2);
   display: block;
   transform: all 0.3s ease 0s;
   border-radius: 50%;
@@ -14384,8 +14384,8 @@ img {
 }
 .page-pagination .pagination li a.active, .page-pagination .pagination li a:hover {
   color: #fff;
-  background-color: #309255;
-  border-color: #309255;
+  background-color: red;
+  border-color: red;
 }
 
 /* Custom Animation */
@@ -14763,7 +14763,7 @@ img {
   font-size: 15px;
   color: #52565b;
   transition: all 0.3s ease 0s;
-  border: 1px solid rgba(48, 146, 85, 0.2);
+  border: 1px solid rgba(255,0,0, 0.2);
   border-radius: 10px;
   background-color: #fff;
 }
@@ -15139,7 +15139,7 @@ img {
   color: #fff;
 }
 .header-top-medal .top-info p a:hover {
-  color: #309255;
+  color: red;
 }
 .header-top-medal .top-info p i {
   color: red;
@@ -15170,7 +15170,7 @@ img {
   color: red;
 }
 .header-top-right .social li a:hover {
-  color: #309255;
+  color: white;
 }
 
 /*--
@@ -16628,7 +16628,7 @@ img {
 }
 .courses-search.search-2 button {
   line-height: 46px;
-  background-color: #309255;
+  background-color: red;
   color: #fff;
   width: 46px;
   height: 46px;
@@ -16824,7 +16824,7 @@ img {
 }
 .single-courses .courses-content .courses-author .author .author-name .name-2 {
   position: relative;
-  color: #309255;
+  color: red;
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
   font-weight: 400;
@@ -17022,7 +17022,7 @@ img {
 }
 .single-courses .courses-content .courses-rating .rating-progress-bar .rating-line {
   height: 100%;
-  background-color: #309255;
+  background-color: red;
 }
 .single-courses .courses-content .courses-rating .rating-meta {
   display: flex;
@@ -17056,7 +17056,7 @@ img {
 .single-courses .courses-content .courses-rating .rating-meta .rating-star .rating-bar::before {
   content: "\f000\f000\f000\f000\f000";
   font-family: IcoFont;
-  color: #ffba00;
+  color: black;
   font-size: 14px;
   letter-spacing: 2px;
 }
@@ -17079,7 +17079,7 @@ img {
 }
 
 .courses-category-wrapper {
-  background-color: #e7f8ee;
+  background-color: #ffebee;
   padding: 10px 40px 40px;
   border-radius: 10px;
 }
@@ -17138,8 +17138,8 @@ img {
   }
 }
 .courses-category-wrapper .category-menu li a.active, .courses-category-wrapper .category-menu li a:hover {
-  background-color: #309255;
-  border-color: #309255;
+  background-color: red;
+  border-color: red;
   color: #fff;
 }
 .courses-category-wrapper .courses-search {
@@ -17851,7 +17851,7 @@ img {
 /*----------------------------------------*/
 .page-banner {
   height: 550px;
-  background-color: #e7f8ee;
+  background-color: #ffebee;
   display: flex;
   align-items: center;
   padding-top: 189px;
@@ -17983,7 +17983,7 @@ img {
   }
 }
 .page-banner-content .breadcrumb li.active {
-  color: #309255;
+  color: red;
 }
 .page-banner-content .title {
   font-size: 40px;
@@ -18005,7 +18005,7 @@ img {
 }
 .page-banner-content .title span {
   position: relative;
-  color: #309255;
+  color: red;
 }
 .page-banner-content .title span::before {
   position: absolute;
@@ -18100,7 +18100,7 @@ img {
   }
 }
 .shape-icon-box .box-content .box-wrapper {
-  background-color: #309255;
+  background-color: red;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18498,7 +18498,7 @@ img {
 .courses-details .courses-details-admin .admin-author .author-content .Enroll {
   font-size: 14px;
   font-weight: 400;
-  color: #309255;
+  color: red;
   display: inline-block;
   line-height: 22px;
 }
@@ -18550,7 +18550,7 @@ img {
 .courses-details .courses-details-admin .admin-rating .rating-star .rating-bar::before {
   content: "\f000\f000\f000\f000\f000";
   font-family: IcoFont;
-  color: #ffba00;
+  color: black;
   font-size: 14px;
   letter-spacing: 2px;
 }
@@ -18571,7 +18571,7 @@ img {
   padding-top: 30px;
 }
 .courses-details-tab .details-tab-menu {
-  background-color: #e7f8ee;
+  background-color: #ffebee;
   border-radius: 10px;
   padding: 15px;
   padding-top: 5px;
@@ -18593,8 +18593,8 @@ img {
   transition: all 0.3s ease 0s;
 }
 .courses-details-tab .details-tab-menu .nav li button:hover, .courses-details-tab .details-tab-menu .nav li button.active {
-  background-color: #309255;
-  border-color: #309255;
+  background-color: red;
+  border-color: red;
   color: #fff;
 }
 .courses-details-tab .details-tab-content .tab-title {
@@ -19620,7 +19620,7 @@ img {
 .contact-wrapper {
   padding: 70px;
   padding-top: 20px;
-  border: 1px solid rgba(48, 146, 85, 0.2);
+  border: 1px solid rgba(255,0,0, 0.2);
   border-radius: 10px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (max-width: 767px) {
@@ -19637,7 +19637,7 @@ img {
 }
 
 .contact-info {
-  background-color: #e7f8ee;
+  background-color: #ffebee;
   padding: 70px 60px;
   border-radius: 15px;
   margin-top: 50px;
@@ -19691,7 +19691,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid rgba(48, 146, 85, 0.2);
+  border: 1px solid rgba(255,0,0, 0.2);
   border-radius: 50%;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -19710,10 +19710,10 @@ img {
   height: 70px;
   line-height: 78px;
   background-color: #fff;
-  border: 1px solid rgba(48, 146, 85, 0.2);
+  border: 1px solid rgba(255,0,0, 0.2);
   border-radius: 50%;
   font-size: 30px;
-  color: #309255;
+  color: red;
   text-align: center;
   transition: all 0.3s ease 0s;
 }
@@ -19743,7 +19743,7 @@ img {
 .single-contact-info .info-content .title {
   font-size: 14px;
   font-weight: 400;
-  color: #309255;
+  color: red;
   margin-bottom: 0;
 }
 .single-contact-info .info-content p {
@@ -19764,8 +19764,8 @@ img {
   }
 }
 .single-contact-info:hover .info-icon i {
-  background-color: #309255;
-  border-color: #309255;
+  background-color: red;
+  border-color: red5;
   color: #fff;
 }
 
@@ -19807,7 +19807,7 @@ img {
   }
 }
 .contact-form .title span {
-  color: #309255;
+  color: red;
   position: relative;
 }
 .contact-form .title span::before {
@@ -23428,7 +23428,7 @@ img {
 .footer-widget .widget-address p {
   font-size: 15px;
   font-weight: 400;
-  color: #309255;
+  color: red;
   margin-top: 6px;
 }
 .footer-widget .widget-info {
@@ -23461,10 +23461,10 @@ img {
 }
 .footer-widget .widget-social li a {
   font-size: 20px;
-  color: #212832;
+  color: red;
 }
 .footer-widget .widget-social li a:hover {
-  color: red;
+  color: black;
 }
 .footer-widget .widget-link {
   padding-top: 26px;
@@ -23567,7 +23567,7 @@ img {
   width: 50px;
   height: 50px;
   line-height: 52px;
-  border: 1px solid rgba(48, 146, 85, 0.25);
+  border: 1px solid rgba(255,0,0, 0.25);
   border-radius: 10px;
   text-align: center;
   font-size: 18px;
@@ -23582,8 +23582,8 @@ img {
   }
 }
 .sidebar-widget .social li a:hover {
-  background-color: #309255;
-  border-color: #309255;
+  background-color: red;
+  border-color: red;
   color: #fff;
 }
 
@@ -23595,9 +23595,9 @@ img {
 }
 
 .widget-information {
-  background-color: #e7f8ee;
+  background-color: #ffebee;
   padding: 30px 30px 40px;
-  border: 1px solid rgba(48, 146, 85, 0.2);
+  border: 1px solid rgba(255,0,0, 0.2);
   border-radius: 10px;
 }
 .widget-information .info-price {
@@ -23606,7 +23606,7 @@ img {
 .widget-information .info-price .price {
   font-size: 30px;
   font-weight: 700;
-  color: #309255;
+  color: red;
   display: block;
 }
 .widget-information .info-list ul {
@@ -23618,7 +23618,7 @@ img {
   padding: 15px 0;
 }
 .widget-information .info-list ul li i {
-  color: #309255;
+  color: red;
   margin-right: 3px;
   font-size: 16px;
 }
@@ -23660,7 +23660,7 @@ img {
 .widget-search input {
   width: 100%;
   height: 60px;
-  border: 1px solid rgba(48, 146, 85, 0.2);
+  border: 1px solid rgba(255,0,0, 0.2);
   border-radius: 10px;
   padding: 0 20px;
   padding-right: 60px;
@@ -23692,7 +23692,7 @@ img {
   line-height: 48px;
   text-align: center;
   border-radius: 10px;
-  background-color: #309255;
+  background-color: red;
   border: 0;
   top: 6px;
   right: 6px;
@@ -23702,7 +23702,7 @@ img {
 
 .widget-category {
   padding: 35px;
-  border: 1px solid rgba(48, 146, 85, 0.2);
+  border: 1px solid rgba(255,0,0, 0.2);
   border-radius: 10px;
   margin-top: 30px;
 }
@@ -23720,7 +23720,7 @@ img {
   line-height: 50px;
   display: block;
   color: #52565b;
-  border: 1px solid rgba(48, 146, 85, 0.2);
+  border: 1px solid rgba(255,0,0, 0.2);
   border-radius: 10px;
   font-size: 15px;
   font-weight: 500;
@@ -23736,14 +23736,14 @@ img {
   float: right;
 }
 .widget-category .category-list li a:hover {
-  color: #309255;
-  background-color: #e7f8ee;
-  border-color: #e7f8ee;
+  color: black;
+  background-color: #ffebee;
+  border-color: #ffebee;
 }
 
 .widget-post {
   padding: 35px;
-  border: 1px solid rgba(48, 146, 85, 0.2);
+  border: 1px solid rgba(255,0,0, 0.2);
   border-radius: 10px;
   margin-top: 30px;
 }
@@ -23807,7 +23807,7 @@ img {
   }
 }
 .widget-post .single-post .post-content .title a:hover {
-  color: #309255;
+  color: red;
 }
 .widget-post .single-post .post-content .date {
   font-size: 13px;
@@ -23816,12 +23816,12 @@ img {
   display: block;
 }
 .widget-post .single-post .post-content .date i {
-  color: #309255;
+  color: red;
 }
 
 .widget-tags {
   padding: 35px;
-  border: 1px solid rgba(48, 146, 85, 0.2);
+  border: 1px solid rgba(255,0,0, 0.2);
   border-radius: 10px;
   margin-top: 30px;
 }
@@ -23848,7 +23848,7 @@ img {
   background-color: #fff;
   display: block;
   color: #52565b;
-  border: 1px solid rgba(48, 146, 85, 0.2);
+  border: 1px solid rgba(255,0,0, 0.2);
   border-radius: 10px;
   font-size: 15px;
   font-weight: 500;
@@ -23866,9 +23866,9 @@ img {
   }
 }
 .widget-tags .tags-list li a:hover {
-  background-color: #e7f8ee;
-  border-color: #e7f8ee;
-  color: #309255;
+  background-color: #ffebee;
+  border-color: #ffebee;
+  color: black;
 }
 
 /*----------------------------------------*/
