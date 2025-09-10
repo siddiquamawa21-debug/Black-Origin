@@ -17912,6 +17912,7 @@ img {
 }
 .page-banner .shape-author {
   position: absolute;
+  width: 250px;
   top: 45%;
   right: 9.5%;
   border-radius: 50%;
