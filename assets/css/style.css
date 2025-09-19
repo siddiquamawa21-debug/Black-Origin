@@ -19523,7 +19523,7 @@ img {
 /*--
 /*  4.17 - 404 Error CSS
 /*----------------------------------------*/
-.error-images {
+/*.error-images {
   margin-top: 50px;
 }
 
@@ -19601,8 +19601,153 @@ img {
 }
 .error-content .btn {
   margin-top: 35px;
+}*/
+
+/* Error Section Styling */
+.error-section {
+  background-color: #0d0d0d;
+  padding: 80px 0;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
 }
 
+/* Error Image Animation */
+.error-images {
+  margin-top: 50px;
+  text-align: center;
+}
+.error-images img {
+  max-width: 100%;
+  animation: float 6s ease-in-out infinite;
+}
+
+/* Error Content Styling */
+.error-content {
+  max-width: 500px;
+  margin: 50px auto 0 auto;
+  text-align: left;
+}
+
+.error-content .sub-title {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  color: #e50914;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.error-content .main-title {
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 20px;
+  color: #fff;
+}
+.error-content .main-title span {
+  color: #e50914;
+  position: relative;
+}
+.error-content .main-title span::before {
+  content: "";
+  position: absolute;
+  background-image: url(../images/shape/shape-4.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 20px;
+  left: 50%;
+  bottom: -10px;
+  transform: translateX(-50%);
+}
+.error-content p {
+  font-size: 18px;
+  color: #ccc;
+  margin-top: 20px;
+}
+
+.error-content .btn {
+  margin-top: 35px;
+  padding: 12px 30px;
+  font-size: 16px;
+  background-color: #e50914;
+  border: none;
+  color: #fff;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.error-content .btn:hover {
+  background-color: #b00610;
+  transform: scale(1.05);
+}
+
+/* Animations */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.animate-slide-left {
+  animation: slideInLeft 1.2s ease forwards;
+}
+
+.animate-fade-in {
+  animation: fadeIn 1.2s ease forwards;
+  opacity: 0;
+}
+
+/* Keyframes */
+@keyframes slideInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive Adjustments */
+@media (max-width: 991px) {
+  .error-content {
+    margin-top: 30px;
+    max-width: 100%;
+  }
+  .error-content .main-title {
+    font-size: 32px;
+  }
+}
+@media (max-width: 575px) {
+  .error-content .main-title {
+    font-size: 24px;
+  }
+  .error-content p {
+    font-size: 16px;
+  }
+  .error-content .btn {
+    width: 100%;
+    text-align: center;
+  }
+}
 /*--
 /*  4.18 - Contact CSS
 /*----------------------------------------*/
